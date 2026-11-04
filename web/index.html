@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Earshot</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div><h1>Earshot</h1><p>Live conversation help for deaf and mute users, on a simulated glasses display.</p></div>
+  <span id="mode" class="pill">connecting</span>
+</header>
+<main>
+  <section class="stage" aria-label="Conversation">
+    <div id="view" class="view">
+      <span class="tag">Glasses view</span>
+      <div id="hud" class="hud" role="status" aria-live="polite">Waiting for speech</div>
+      <div id="dots" class="dots" aria-hidden="true"></div>
+    </div>
+    <ol id="steps" class="steps" aria-label="Agent steps"></ol>
+    <h2>Tap a reply to say it</h2>
+    <div id="replies" class="replies"><p class="muted">Suggested replies appear here. Nothing is spoken until you tap one.</p></div>
+    <p id="source" class="source"></p>
+  </section>
+  <aside>
+    <section class="panel">
+      <h2>Someone says</h2>
+      <div id="script" class="script"></div>
+      <form id="say">
+        <label for="text" class="sr">Type what the speaker says</label>
+        <input id="text" maxlength="500" placeholder="Type what they say" autocomplete="off">
+        <button type="submit">Send</button>
+        <button type="button" id="mic" class="ghost">Record</button>
+      </form>
+      <p id="micnote" class="muted small"></p>
+    </section>
+    <section class="panel">
+      <h2>This turn</h2>
+      <table><tbody id="trace"><tr><td class="muted">No turns yet</td></tr></tbody></table>
+    </section>
+    <section class="panel">
+      <details><summary>Meera's notes (synthetic)</summary><div id="notes"></div></details>
+    </section>
+  </aside>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

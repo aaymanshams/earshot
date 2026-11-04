@@ -1,0 +1,565 @@
+{
+  "brain": "offline",
+  "retrieval": [
+    {
+      "embedder": "hashing",
+      "chunking": "fixed",
+      "reranker": "none",
+      "recall@1": 0.759,
+      "recall@3": 0.897,
+      "mrr": 0.827,
+      "p95_ms": 0.1
+    },
+    {
+      "embedder": "hashing",
+      "chunking": "fixed",
+      "reranker": "lexical",
+      "recall@1": 0.828,
+      "recall@3": 0.897,
+      "mrr": 0.867,
+      "p95_ms": 0.1
+    },
+    {
+      "embedder": "hashing",
+      "chunking": "fixed",
+      "reranker": "cross-encoder",
+      "recall@1": 0.897,
+      "recall@3": 0.931,
+      "mrr": 0.926,
+      "p95_ms": 125.7
+    },
+    {
+      "embedder": "hashing",
+      "chunking": "sentence",
+      "reranker": "none",
+      "recall@1": 0.69,
+      "recall@3": 0.759,
+      "mrr": 0.743,
+      "p95_ms": 0.0
+    },
+    {
+      "embedder": "hashing",
+      "chunking": "sentence",
+      "reranker": "lexical",
+      "recall@1": 0.69,
+      "recall@3": 0.793,
+      "mrr": 0.753,
+      "p95_ms": 0.1
+    },
+    {
+      "embedder": "hashing",
+      "chunking": "sentence",
+      "reranker": "cross-encoder",
+      "recall@1": 0.828,
+      "recall@3": 0.931,
+      "mrr": 0.874,
+      "p95_ms": 79.4
+    },
+    {
+      "embedder": "minilm",
+      "chunking": "fixed",
+      "reranker": "none",
+      "recall@1": 0.966,
+      "recall@3": 1.0,
+      "mrr": 0.977,
+      "p95_ms": 373.2
+    },
+    {
+      "embedder": "minilm",
+      "chunking": "fixed",
+      "reranker": "lexical",
+      "recall@1": 0.931,
+      "recall@3": 1.0,
+      "mrr": 0.96,
+      "p95_ms": 5.8
+    },
+    {
+      "embedder": "minilm",
+      "chunking": "fixed",
+      "reranker": "cross-encoder",
+      "recall@1": 0.897,
+      "recall@3": 0.931,
+      "mrr": 0.926,
+      "p95_ms": 22.2
+    },
+    {
+      "embedder": "minilm",
+      "chunking": "sentence",
+      "reranker": "none",
+      "recall@1": 0.862,
+      "recall@3": 0.966,
+      "mrr": 0.914,
+      "p95_ms": 5.8
+    },
+    {
+      "embedder": "minilm",
+      "chunking": "sentence",
+      "reranker": "lexical",
+      "recall@1": 0.897,
+      "recall@3": 0.966,
+      "mrr": 0.929,
+      "p95_ms": 5.8
+    },
+    {
+      "embedder": "minilm",
+      "chunking": "sentence",
+      "reranker": "cross-encoder",
+      "recall@1": 0.862,
+      "recall@3": 0.966,
+      "mrr": 0.915,
+      "p95_ms": 17.4
+    }
+  ],
+  "agent": {
+    "baseline (hashing, lexical)": {
+      "threshold": 0.1,
+      "answerable": 29,
+      "correct": 19,
+      "wrong": 4,
+      "abstained": 6,
+      "unanswerable": 12,
+      "safe": 8,
+      "invented": 4,
+      "answer_accuracy": 0.655,
+      "wrong_fact_rate": 0.195,
+      "abstain_when_unknown": 0.667,
+      "p50_ms": 1.9,
+      "p95_ms": 2.7,
+      "failures": [
+        {
+          "q": "Do you react badly to any antibiotics?",
+          "got": "(abstained)",
+          "want": "penicillin"
+        },
+        {
+          "q": "Is there anything you can't eat because of an allergy?",
+          "got": "Medicine allergy: penicillin causes a skin rash and swelling.",
+          "want": "peanuts"
+        },
+        {
+          "q": "What was your blood sugar average on the last report?",
+          "got": "Blood pressure was 118 over 76 at the last visit.",
+          "want": "7.2 percent"
+        },
+        {
+          "q": "Who should we call in an emergency?",
+          "got": "(abstained)",
+          "want": "Ananya"
+        },
+        {
+          "q": "What do you do for a living?",
+          "got": "(abstained)",
+          "want": "data analyst"
+        },
+        {
+          "q": "Who do you report to?",
+          "got": "(abstained)",
+          "want": "Farhan Qureshi"
+        },
+        {
+          "q": "Do you eat meat?",
+          "got": "(abstained)",
+          "want": "vegetarian"
+        },
+        {
+          "q": "Why can't you speak?",
+          "got": "(abstained)",
+          "want": "throat surgery"
+        },
+        {
+          "q": "Have you had any joint surgery?",
+          "got": "I am mute after throat surgery in 2021.",
+          "want": "knee replacement"
+        },
+        {
+          "q": "What do you take for blood pressure?",
+          "got": "I have high blood pressure.",
+          "want": "Amlodipine"
+        },
+        {
+          "q": "Do you have a pet?",
+          "got": "I have type 1 diabetes, diagnosed in 2014.",
+          "want": "(abstain)"
+        },
+        {
+          "q": "When is your next dental appointment?",
+          "got": "Salbutamol inhaler 2 puffs when wheezing.",
+          "want": "(abstain)"
+        },
+        {
+          "q": "Do you take any blood thinners?",
+          "got": "My blood group is B positive.",
+          "want": "(abstain)"
+        },
+        {
+          "q": "What is your blood group?",
+          "got": "I have high blood pressure.",
+          "want": "(abstain)"
+        }
+      ]
+    },
+    "best (minilm, cross-encoder)": {
+      "threshold": 0.1,
+      "answerable": 29,
+      "correct": 17,
+      "wrong": 0,
+      "abstained": 12,
+      "unanswerable": 12,
+      "safe": 12,
+      "invented": 0,
+      "answer_accuracy": 0.586,
+      "wrong_fact_rate": 0.0,
+      "abstain_when_unknown": 1.0,
+      "p50_ms": 30.5,
+      "p95_ms": 46.1,
+      "failures": [
+        {
+          "q": "Do you react badly to any antibiotics?",
+          "got": "(abstained)",
+          "want": "penicillin"
+        },
+        {
+          "q": "Is there anything you can't eat because of an allergy?",
+          "got": "(abstained)",
+          "want": "peanuts"
+        },
+        {
+          "q": "Do you have an inhaler?",
+          "got": "(abstained)",
+          "want": "Salbutamol"
+        },
+        {
+          "q": "What was your blood sugar average on the last report?",
+          "got": "(abstained)",
+          "want": "7.2 percent"
+        },
+        {
+          "q": "Who should we call in an emergency?",
+          "got": "(abstained)",
+          "want": "Ananya"
+        },
+        {
+          "q": "What do you do for a living?",
+          "got": "(abstained)",
+          "want": "data analyst"
+        },
+        {
+          "q": "Who do you report to?",
+          "got": "(abstained)",
+          "want": "Farhan Qureshi"
+        },
+        {
+          "q": "Do you eat meat?",
+          "got": "(abstained)",
+          "want": "vegetarian"
+        },
+        {
+          "q": "Why can't you speak?",
+          "got": "(abstained)",
+          "want": "throat surgery"
+        },
+        {
+          "q": "Have you had any joint surgery?",
+          "got": "(abstained)",
+          "want": "knee replacement"
+        },
+        {
+          "q": "What do you take for blood pressure?",
+          "got": "(abstained)",
+          "want": "Amlodipine"
+        },
+        {
+          "q": "What subject do you teach?",
+          "got": "(abstained)",
+          "want": "mathematics"
+        }
+      ]
+    }
+  },
+  "tuning": {
+    "baseline (hashing, lexical)": {
+      "chosen": 0.1,
+      "sweep": [
+        {
+          "threshold": 0.1,
+          "accuracy": 0.724,
+          "wrong_fact_rate": 0.119
+        },
+        {
+          "threshold": 0.15,
+          "accuracy": 0.724,
+          "wrong_fact_rate": 0.119
+        },
+        {
+          "threshold": 0.2,
+          "accuracy": 0.724,
+          "wrong_fact_rate": 0.119
+        },
+        {
+          "threshold": 0.25,
+          "accuracy": 0.655,
+          "wrong_fact_rate": 0.119
+        },
+        {
+          "threshold": 0.3,
+          "accuracy": 0.586,
+          "wrong_fact_rate": 0.119
+        },
+        {
+          "threshold": 0.35,
+          "accuracy": 0.552,
+          "wrong_fact_rate": 0.071
+        },
+        {
+          "threshold": 0.4,
+          "accuracy": 0.448,
+          "wrong_fact_rate": 0.024
+        },
+        {
+          "threshold": 0.45,
+          "accuracy": 0.379,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.5,
+          "accuracy": 0.31,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.55,
+          "accuracy": 0.276,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.6,
+          "accuracy": 0.241,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "accuracy": 0.172,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.7,
+          "accuracy": 0.138,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "accuracy": 0.069,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "accuracy": 0.034,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.85,
+          "accuracy": 0.0,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "accuracy": 0.0,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.95,
+          "accuracy": 0.0,
+          "wrong_fact_rate": 0.0
+        }
+      ]
+    },
+    "best (minilm, cross-encoder)": {
+      "chosen": 0.1,
+      "sweep": [
+        {
+          "threshold": 0.1,
+          "accuracy": 0.586,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.15,
+          "accuracy": 0.586,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.2,
+          "accuracy": 0.552,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.25,
+          "accuracy": 0.552,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.3,
+          "accuracy": 0.517,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.35,
+          "accuracy": 0.483,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.4,
+          "accuracy": 0.483,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.45,
+          "accuracy": 0.483,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.5,
+          "accuracy": 0.483,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.55,
+          "accuracy": 0.483,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.6,
+          "accuracy": 0.448,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "accuracy": 0.448,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.7,
+          "accuracy": 0.448,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "accuracy": 0.448,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "accuracy": 0.414,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.85,
+          "accuracy": 0.414,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "accuracy": 0.345,
+          "wrong_fact_rate": 0.0
+        },
+        {
+          "threshold": 0.95,
+          "accuracy": 0.31,
+          "wrong_fact_rate": 0.0
+        }
+      ]
+    }
+  },
+  "triage": {
+    "accuracy": 1.0,
+    "per_class": {
+      "personal_question": 1.0,
+      "general_question": 1.0,
+      "statement": 1.0,
+      "urgent": 1.0
+    },
+    "misses": []
+  },
+  "triage_hard": {
+    "accuracy": 0.267,
+    "per_class": {
+      "personal_question": 0.2,
+      "general_question": 0.0,
+      "statement": 0.75,
+      "urgent": 0.0
+    },
+    "misses": [
+      {
+        "text": "Tell me your date of birth.",
+        "want": "personal_question",
+        "got": "statement"
+      },
+      {
+        "text": "Allergic to anything?",
+        "want": "personal_question",
+        "got": "general_question"
+      },
+      {
+        "text": "I need your ID number.",
+        "want": "personal_question",
+        "got": "statement"
+      },
+      {
+        "text": "Any pain right now?",
+        "want": "personal_question",
+        "got": "general_question"
+      },
+      {
+        "text": "Could you hand me that file?",
+        "want": "general_question",
+        "got": "personal_question"
+      },
+      {
+        "text": "Would you like some water?",
+        "want": "general_question",
+        "got": "personal_question"
+      },
+      {
+        "text": "Anything else I can get you?",
+        "want": "general_question",
+        "got": "personal_question"
+      },
+      {
+        "text": "The fire drill is tomorrow at ten.",
+        "want": "statement",
+        "got": "urgent"
+      },
+      {
+        "text": "Mind the step!",
+        "want": "urgent",
+        "got": "statement"
+      },
+      {
+        "text": "You're bleeding!",
+        "want": "urgent",
+        "got": "statement"
+      },
+      {
+        "text": "Move, the bus is reversing!",
+        "want": "urgent",
+        "got": "statement"
+      }
+    ]
+  },
+  "urgent": {
+    "recall": 1.0,
+    "p95_ms": 1.27,
+    "tokens_used": 0
+  },
+  "captions": {
+    "facts_preserved": 1.0,
+    "cases": 6,
+    "hud_fits": true
+  },
+  "speech": {
+    "model": "tiny.en",
+    "sentences": 20,
+    "wer": 0.074,
+    "p50_ms": 528.7,
+    "p95_ms": 545.7,
+    "source": "macOS say, clean audio"
+  }
+}

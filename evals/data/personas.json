@@ -1,0 +1,22 @@
+{
+  "meera": [
+    {"title": "Medical conditions", "text": "I have profound hearing loss in both ears since birth.\nI have type 1 diabetes, diagnosed in 2014.\nI have mild asthma that gets worse in winter."},
+    {"title": "Allergies", "text": "Medicine allergy: penicillin causes a skin rash and swelling.\nFood allergy: peanuts.\nI have no latex allergy."},
+    {"title": "Current medicines", "text": "Insulin glargine 18 units every night at 10 pm.\nInsulin aspart 6 units before each meal.\nSalbutamol inhaler 2 puffs when wheezing."},
+    {"title": "Doctors", "text": "Endocrinologist: Dr. Kavita Rao at Sunrise Clinic, Ahmedabad, phone 079-5550-1421.\nFamily doctor: Dr. Imran Sheikh, visits on the first Saturday of every month.\nAudiologist: Dr. Neha Bose, last hearing test on 12 March 2026."},
+    {"title": "Recent tests", "text": "HbA1c was 7.2 percent on 3 September 2026.\nBlood pressure was 118 over 76 at the last visit.\nCholesterol was normal in June 2026."},
+    {"title": "Emergency contact", "text": "My sister Ananya Iyer is my emergency contact, phone 98250-55512.\nMy blood group is B positive."},
+    {"title": "Work", "text": "I work as a data analyst at Northline Logistics in Gandhinagar.\nOffice hours are 9:30 am to 6 pm, Monday to Friday.\nMy manager is Farhan Qureshi."},
+    {"title": "Banking", "text": "My savings account is with Harbor Bank, Satellite branch.\nI prefer a written statement sent by email.\nI opened the account in 2019."},
+    {"title": "Communication preferences", "text": "I use Indian Sign Language and read English well.\nPlease face me and write down long instructions.\nI do not need an interpreter for short visits."},
+    {"title": "Travel and home", "text": "I live at 14 Lake View Society, Bodakdev, Ahmedabad.\nI travel by metro and take the blue line to work.\nMy train to Mumbai is on 22 November at 7:15 am."},
+    {"title": "Food", "text": "I am vegetarian.\nI avoid peanuts and very sugary drinks.\nMy usual coffee order is black with no sugar."}
+  ],
+  "ravi": [
+    {"title": "Medical conditions", "text": "I am mute after throat surgery in 2021.\nI have high blood pressure.\nI had a knee replacement on my right leg in 2023."},
+    {"title": "Allergies", "text": "Medicine allergy: sulfa drugs.\nI have no food allergies."},
+    {"title": "Current medicines", "text": "Amlodipine 5 mg every morning.\nAtorvastatin 10 mg at bedtime."},
+    {"title": "Family", "text": "My wife is Lakshmi, phone 94440-55587.\nMy son Karthik studies in Pune."},
+    {"title": "Work", "text": "I teach mathematics at Greenfield School in Chennai.\nI retire in June 2028."}
+  ]
+}

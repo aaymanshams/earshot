@@ -1,0 +1,583 @@
+[
+ {
+  "id": "a0",
+  "persona": "meera",
+  "question": "Are you allergic to any medicines?",
+  "gold": "penicillin",
+  "split": "dev"
+ },
+ {
+  "id": "a1",
+  "persona": "meera",
+  "question": "Do you react badly to any antibiotics?",
+  "gold": "penicillin",
+  "split": "test"
+ },
+ {
+  "id": "a2",
+  "persona": "meera",
+  "question": "Do you have any food allergies?",
+  "gold": "peanuts",
+  "split": "dev"
+ },
+ {
+  "id": "a3",
+  "persona": "meera",
+  "question": "Is there anything you can't eat because of an allergy?",
+  "gold": "peanuts",
+  "split": "test"
+ },
+ {
+  "id": "a4",
+  "persona": "meera",
+  "question": "Are you allergic to latex gloves?",
+  "gold": "latex",
+  "split": "dev"
+ },
+ {
+  "id": "a5",
+  "persona": "meera",
+  "question": "What insulin do you take at night?",
+  "gold": "glargine",
+  "split": "test"
+ },
+ {
+  "id": "a6",
+  "persona": "meera",
+  "question": "How many units do you take at bedtime?",
+  "gold": "18 units",
+  "split": "dev"
+ },
+ {
+  "id": "a7",
+  "persona": "meera",
+  "question": "What is your dose before meals?",
+  "gold": "6 units",
+  "split": "test"
+ },
+ {
+  "id": "a8",
+  "persona": "meera",
+  "question": "What do you use when you are wheezing?",
+  "gold": "Salbutamol",
+  "split": "dev"
+ },
+ {
+  "id": "a9",
+  "persona": "meera",
+  "question": "Do you have an inhaler?",
+  "gold": "Salbutamol",
+  "split": "test"
+ },
+ {
+  "id": "a10",
+  "persona": "meera",
+  "question": "Do you have diabetes?",
+  "gold": "type 1 diabetes",
+  "split": "dev"
+ },
+ {
+  "id": "a11",
+  "persona": "meera",
+  "question": "When were you diagnosed with diabetes?",
+  "gold": "2014",
+  "split": "test"
+ },
+ {
+  "id": "a12",
+  "persona": "meera",
+  "question": "Do you have any breathing problems?",
+  "gold": "asthma",
+  "split": "dev"
+ },
+ {
+  "id": "a13",
+  "persona": "meera",
+  "question": "How long have you had your hearing loss?",
+  "gold": "since birth",
+  "split": "test"
+ },
+ {
+  "id": "a14",
+  "persona": "meera",
+  "question": "Who is your diabetes specialist?",
+  "gold": "Kavita Rao",
+  "split": "dev"
+ },
+ {
+  "id": "a15",
+  "persona": "meera",
+  "question": "What's your endocrinologist's phone number?",
+  "gold": "079-5550-1421",
+  "split": "test"
+ },
+ {
+  "id": "a16",
+  "persona": "meera",
+  "question": "Which clinic do you go to for diabetes?",
+  "gold": "Sunrise Clinic",
+  "split": "dev"
+ },
+ {
+  "id": "a17",
+  "persona": "meera",
+  "question": "Who is your family doctor?",
+  "gold": "Imran Sheikh",
+  "split": "test"
+ },
+ {
+  "id": "a18",
+  "persona": "meera",
+  "question": "When do you see your family doctor?",
+  "gold": "first Saturday",
+  "split": "dev"
+ },
+ {
+  "id": "a19",
+  "persona": "meera",
+  "question": "When was your last hearing test?",
+  "gold": "12 March 2026",
+  "split": "test"
+ },
+ {
+  "id": "a20",
+  "persona": "meera",
+  "question": "What was your latest HbA1c?",
+  "gold": "7.2 percent",
+  "split": "dev"
+ },
+ {
+  "id": "a21",
+  "persona": "meera",
+  "question": "What was your blood sugar average on the last report?",
+  "gold": "7.2 percent",
+  "split": "test"
+ },
+ {
+  "id": "a22",
+  "persona": "meera",
+  "question": "What was your blood pressure last time?",
+  "gold": "118 over 76",
+  "split": "dev"
+ },
+ {
+  "id": "a23",
+  "persona": "meera",
+  "question": "Who should we call in an emergency?",
+  "gold": "Ananya",
+  "split": "test"
+ },
+ {
+  "id": "a24",
+  "persona": "meera",
+  "question": "What is your sister's phone number?",
+  "gold": "98250-55512",
+  "split": "dev"
+ },
+ {
+  "id": "a25",
+  "persona": "meera",
+  "question": "What's your blood group?",
+  "gold": "B positive",
+  "split": "test"
+ },
+ {
+  "id": "a26",
+  "persona": "meera",
+  "question": "Where do you work?",
+  "gold": "Northline Logistics",
+  "split": "dev"
+ },
+ {
+  "id": "a27",
+  "persona": "meera",
+  "question": "What do you do for a living?",
+  "gold": "data analyst",
+  "split": "test"
+ },
+ {
+  "id": "a28",
+  "persona": "meera",
+  "question": "What are your office timings?",
+  "gold": "9:30 am",
+  "split": "dev"
+ },
+ {
+  "id": "a29",
+  "persona": "meera",
+  "question": "Who do you report to?",
+  "gold": "Farhan Qureshi",
+  "split": "test"
+ },
+ {
+  "id": "a30",
+  "persona": "meera",
+  "question": "Which bank do you have an account with?",
+  "gold": "Harbor Bank",
+  "split": "dev"
+ },
+ {
+  "id": "a31",
+  "persona": "meera",
+  "question": "Which branch holds your savings account?",
+  "gold": "Satellite",
+  "split": "test"
+ },
+ {
+  "id": "a32",
+  "persona": "meera",
+  "question": "How would you like to receive your statement?",
+  "gold": "email",
+  "split": "dev"
+ },
+ {
+  "id": "a33",
+  "persona": "meera",
+  "question": "When did you open your account?",
+  "gold": "2019",
+  "split": "test"
+ },
+ {
+  "id": "a34",
+  "persona": "meera",
+  "question": "Do you need a sign language interpreter?",
+  "gold": "interpreter",
+  "split": "dev"
+ },
+ {
+  "id": "a35",
+  "persona": "meera",
+  "question": "Which sign language do you use?",
+  "gold": "Indian Sign Language",
+  "split": "test"
+ },
+ {
+  "id": "a36",
+  "persona": "meera",
+  "question": "What is your home address?",
+  "gold": "14 Lake View",
+  "split": "dev"
+ },
+ {
+  "id": "a37",
+  "persona": "meera",
+  "question": "Where do you live?",
+  "gold": "14 Lake View",
+  "split": "test"
+ },
+ {
+  "id": "a38",
+  "persona": "meera",
+  "question": "How do you get to the office?",
+  "gold": "blue line",
+  "split": "dev"
+ },
+ {
+  "id": "a39",
+  "persona": "meera",
+  "question": "When is your train to Mumbai?",
+  "gold": "22 November",
+  "split": "test"
+ },
+ {
+  "id": "a40",
+  "persona": "meera",
+  "question": "What time does your train leave?",
+  "gold": "7:15 am",
+  "split": "dev"
+ },
+ {
+  "id": "a41",
+  "persona": "meera",
+  "question": "Do you eat meat?",
+  "gold": "vegetarian",
+  "split": "test"
+ },
+ {
+  "id": "a42",
+  "persona": "meera",
+  "question": "How do you take your coffee?",
+  "gold": "black",
+  "split": "dev"
+ },
+ {
+  "id": "a43",
+  "persona": "ravi",
+  "question": "Are you allergic to any medicines?",
+  "gold": "sulfa",
+  "split": "test"
+ },
+ {
+  "id": "a44",
+  "persona": "ravi",
+  "question": "Do you have any food allergies?",
+  "gold": "no food allergies",
+  "split": "dev"
+ },
+ {
+  "id": "a45",
+  "persona": "ravi",
+  "question": "Why can't you speak?",
+  "gold": "throat surgery",
+  "split": "test"
+ },
+ {
+  "id": "a46",
+  "persona": "ravi",
+  "question": "Do you have high blood pressure?",
+  "gold": "high blood pressure",
+  "split": "dev"
+ },
+ {
+  "id": "a47",
+  "persona": "ravi",
+  "question": "Have you had any joint surgery?",
+  "gold": "knee replacement",
+  "split": "test"
+ },
+ {
+  "id": "a48",
+  "persona": "ravi",
+  "question": "Which knee was operated on?",
+  "gold": "right leg",
+  "split": "dev"
+ },
+ {
+  "id": "a49",
+  "persona": "ravi",
+  "question": "What do you take for blood pressure?",
+  "gold": "Amlodipine",
+  "split": "test"
+ },
+ {
+  "id": "a50",
+  "persona": "ravi",
+  "question": "What is your amlodipine dose?",
+  "gold": "5 mg",
+  "split": "dev"
+ },
+ {
+  "id": "a51",
+  "persona": "ravi",
+  "question": "What do you take at bedtime?",
+  "gold": "Atorvastatin",
+  "split": "test"
+ },
+ {
+  "id": "a52",
+  "persona": "ravi",
+  "question": "What's your wife's name?",
+  "gold": "Lakshmi",
+  "split": "dev"
+ },
+ {
+  "id": "a53",
+  "persona": "ravi",
+  "question": "What is your wife's number?",
+  "gold": "94440-55587",
+  "split": "test"
+ },
+ {
+  "id": "a54",
+  "persona": "ravi",
+  "question": "Where does your son study?",
+  "gold": "Pune",
+  "split": "dev"
+ },
+ {
+  "id": "a55",
+  "persona": "ravi",
+  "question": "What subject do you teach?",
+  "gold": "mathematics",
+  "split": "test"
+ },
+ {
+  "id": "a56",
+  "persona": "ravi",
+  "question": "Which school do you work at?",
+  "gold": "Greenfield School",
+  "split": "dev"
+ },
+ {
+  "id": "a57",
+  "persona": "ravi",
+  "question": "When do you retire?",
+  "gold": "June 2028",
+  "split": "test"
+ },
+ {
+  "id": "u0",
+  "persona": "meera",
+  "question": "What is your father's name?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u1",
+  "persona": "meera",
+  "question": "Do you have a pet?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u2",
+  "persona": "meera",
+  "question": "What is your Aadhaar number?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u3",
+  "persona": "meera",
+  "question": "Do you smoke?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u4",
+  "persona": "meera",
+  "question": "How much do you weigh?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u5",
+  "persona": "meera",
+  "question": "What is your salary?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u6",
+  "persona": "meera",
+  "question": "Have you had your flu vaccine?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u7",
+  "persona": "meera",
+  "question": "What was your thyroid result?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u8",
+  "persona": "meera",
+  "question": "Do you drive a car?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u9",
+  "persona": "meera",
+  "question": "What's your favourite movie?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u10",
+  "persona": "meera",
+  "question": "What is your account balance?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u11",
+  "persona": "meera",
+  "question": "When is your next dental appointment?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u12",
+  "persona": "meera",
+  "question": "Have you ever had surgery?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u13",
+  "persona": "meera",
+  "question": "Do you take any blood thinners?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u14",
+  "persona": "meera",
+  "question": "What is your employee ID?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u15",
+  "persona": "ravi",
+  "question": "What is your sister's name?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u16",
+  "persona": "ravi",
+  "question": "Do you have diabetes?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u17",
+  "persona": "ravi",
+  "question": "Who is your cardiologist?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u18",
+  "persona": "ravi",
+  "question": "What is your home address?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u19",
+  "persona": "ravi",
+  "question": "What is your blood group?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u20",
+  "persona": "ravi",
+  "question": "Do you use a hearing aid?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u21",
+  "persona": "ravi",
+  "question": "What car do you own?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u22",
+  "persona": "ravi",
+  "question": "When is your next flight?",
+  "gold": null,
+  "split": "dev"
+ },
+ {
+  "id": "u23",
+  "persona": "ravi",
+  "question": "How much do you pay in rent?",
+  "gold": null,
+  "split": "test"
+ },
+ {
+  "id": "u24",
+  "persona": "ravi",
+  "question": "Do you have a pet?",
+  "gold": null,
+  "split": "dev"
+ }
+]

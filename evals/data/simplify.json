@@ -1,0 +1,42 @@
+[
+ {
+  "text": "Um, basically you should take 2 tablets at 8:30 pm, you know, prior to dinner.",
+  "keep": [
+   "2",
+   "8:30"
+  ]
+ },
+ {
+  "text": "Your hypertension medication dose is 5 mg, I mean, every morning.",
+  "keep": [
+   "5"
+  ]
+ },
+ {
+  "text": "We will commence the 7 day course on 14 December.",
+  "keep": [
+   "7",
+   "14"
+  ]
+ },
+ {
+  "text": "Please bring your identification and 500 rupees to counter 3.",
+  "keep": [
+   "500",
+   "3"
+  ]
+ },
+ {
+  "text": "Actually Dr. Rao can see you at 4:15 on Friday.",
+  "keep": [
+   "Rao",
+   "4:15"
+  ]
+ },
+ {
+  "text": "Fasting is needed for 12 hours prior to the test.",
+  "keep": [
+   "12"
+  ]
+ }
+]

@@ -1,0 +1,25 @@
+{
+ "personal_question": [
+  "Tell me your date of birth.",
+  "Your name, please?",
+  "Allergic to anything?",
+  "I need your ID number.",
+  "Any pain right now?"
+ ],
+ "general_question": [
+  "Could you hand me that file?",
+  "Would you like some water?",
+  "Anything else I can get you?"
+ ],
+ "statement": [
+  "You have a lovely home.",
+  "Run the test again tomorrow.",
+  "The fire drill is tomorrow at ten.",
+  "Your turn is next."
+ ],
+ "urgent": [
+  "Mind the step!",
+  "You're bleeding!",
+  "Move, the bus is reversing!"
+ ]
+}

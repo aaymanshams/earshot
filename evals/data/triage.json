@@ -1,0 +1,54 @@
+{
+ "personal_question": [
+  "Are you allergic to anything?",
+  "What medicines are you taking?",
+  "Do you have your insurance card?",
+  "When did your pain start?",
+  "Where do you live?",
+  "Which bank do you use?",
+  "What's your date of birth?",
+  "Do you take insulin?",
+  "Is your sister coming with you?",
+  "What is your phone number?",
+  "How often do you check your sugar?",
+  "Have you eaten today?"
+ ],
+ "general_question": [
+  "How are you today?",
+  "Good morning, how are you?",
+  "Nice to meet you, how do you do?",
+  "Can you read this?",
+  "Do you understand?",
+  "Shall we begin?",
+  "Are you ready?",
+  "What time is it?",
+  "Is the pharmacy open?",
+  "Where is the lift?",
+  "Is this the queue for tickets?",
+  "How was your weekend?"
+ ],
+ "statement": [
+  "The doctor will see you now.",
+  "Please take a seat.",
+  "Your reports are ready.",
+  "We close at six today.",
+  "Take this tablet twice a day.",
+  "The next train is delayed by ten minutes.",
+  "Sign here and here.",
+  "I'll be back in five minutes.",
+  "Your blood pressure looks fine.",
+  "That will be two hundred rupees.",
+  "The form is on the table.",
+  "Thank you for coming."
+ ],
+ "urgent": [
+  "Watch out, a car is coming!",
+  "There's a fire, get out now!",
+  "Call an ambulance!",
+  "Evacuate the building immediately.",
+  "Look out behind you!",
+  "This is an emergency, move now.",
+  "Gas leak in the kitchen, leave now.",
+  "Danger, step back from the edge."
+ ]
+}
